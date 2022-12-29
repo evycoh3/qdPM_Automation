@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-29T14:53:58 IST" name="All Test Suite" finished-at="2022-12-29T14:54:11 IST" duration-ms="12194">
+    <groups>
+    </groups>
+    <test started-at="2022-12-29T14:53:58 IST" name="qdPM_automation" finished-at="2022-12-29T14:54:11 IST" duration-ms="12194">
+      <class name="testcases.AddTicketTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AddTicketTest@368247b9]" started-at="2022-12-29T14:53:59 IST" name="setup" finished-at="2022-12-29T14:54:03 IST" duration-ms="3872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_addTicket(java.util.Map)[pri:0, instance:testcases.AddTicketTest@368247b9]" started-at="2022-12-29T14:54:03 IST" name="tc_addTicket" data-provider="data" finished-at="2022-12-29T14:54:10 IST" duration-ms="7059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=administrator, email=administrator@localhost.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_addTicket -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddTicketTest@368247b9]" started-at="2022-12-29T14:54:10 IST" name="tearDown" finished-at="2022-12-29T14:54:11 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AddTicketTest -->
+      <class name="testcases.AddTaskTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AddTaskTest@1e6a3214]" started-at="2022-12-29T14:53:59 IST" name="setup" finished-at="2022-12-29T14:54:03 IST" duration-ms="3867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_addTask(java.util.Map)[pri:0, instance:testcases.AddTaskTest@1e6a3214]" started-at="2022-12-29T14:54:03 IST" name="tc_addTask" data-provider="data" finished-at="2022-12-29T14:54:09 IST" duration-ms="6185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=administrator, email=administrator@localhost.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_addTask -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddTaskTest@1e6a3214]" started-at="2022-12-29T14:54:09 IST" name="tearDown" finished-at="2022-12-29T14:54:10 IST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AddTaskTest -->
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@659499f1]" started-at="2022-12-29T14:53:59 IST" name="setup" finished-at="2022-12-29T14:54:03 IST" duration-ms="3856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_loginLogout(java.util.Map)[pri:0, instance:testcases.LoginTest@659499f1]" started-at="2022-12-29T14:54:03 IST" name="tc_loginLogout" data-provider="data" finished-at="2022-12-29T14:54:06 IST" duration-ms="3516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=administrator, email=administrator@localhost.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_loginLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@659499f1]" started-at="2022-12-29T14:54:06 IST" name="tearDown" finished-at="2022-12-29T14:54:07 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- qdPM_automation -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
